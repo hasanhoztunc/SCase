@@ -1,0 +1,13 @@
+//
+//  HomeViewModelDelegate.swift
+//  SCase
+//
+//  Created by Hasan Oztunc on 18.02.2023.
+//
+
+import Foundation
+
+protocol HomeViewModelDelegate: SViewModelDelegate {
+
+    func usersDidFetch(_ users: [Person])
+}
